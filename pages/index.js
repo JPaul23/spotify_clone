@@ -1,10 +1,9 @@
+import { Sidebar} from '../components';
 const Home = () => {
   return (
-    <div className>
-
-      <h1>Dope spotify clone</h1>
-      <main>
-        {/* Sidebar */}
+    <div className='bg-black h-screen overflow-hidden'>
+      <main className=''>
+        <Sidebar />
         {/* Center */}
       </main>
       <div>
